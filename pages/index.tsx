@@ -27,7 +27,7 @@ const Home: NextPage = () => {
 
           <Link href="/ssg">
             <a className={styles.card}>
-              <h3>SSG &rarr;</h3>
+              <h3 className='px-2 py-2'>SSG &rarr;</h3>
               <p>Fetches a random public API at build time</p>
             </a>
           </Link>

@@ -1,0 +1,24 @@
+@import '~@vedantuadmin/wave-ui/styles';
+
+// icons
+@import '~@vedantuadmin/wave-ui/styles/icons/fontawesome';
+@import '~@vedantuadmin/wave-ui/styles/icons/solid';
+@import '~@vedantuadmin/wave-ui/styles/icons/regular';
+@import '~@vedantuadmin/wave-ui/styles/icons/light';
+
+
+body {
+    @include generator();
+    .wt-400 {
+        font-weight: 400;
+        font-family: Poppins-Regular;
+    }
+
+    .wt-500 {
+        font-family: Poppins-Medium;
+    }
+
+    .wt-600 {
+        font-family: Poppins-Medium;
+    }
+}
